@@ -20,3 +20,6 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# TravisCI
+exclude: [vendor]

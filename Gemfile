@@ -2,6 +2,7 @@ source "https://rubygems.org"
 ruby File.read('.ruby-version').chomp if File.exist?('.ruby-version')
 
 gem "jekyll", "3.3.0"
+gem "html-proofer"
 
 # Theme. Must be listed on https://pages.github.com/themes/
 gem "minima", "~> 2.0"

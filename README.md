@@ -2,6 +2,8 @@
 
 Content for blog available at <https://thebelltower.github.io/>. Built using [Jekyll][jekyll].
 
+[![Build Status](https://travis-ci.org/thebelltower/thebelltower.github.io.svg?branch=master)](https://travis-ci.org/thebelltower/thebelltower.github.io)
+
 ## Table of Contents
 
 * [Setup](#setup)
