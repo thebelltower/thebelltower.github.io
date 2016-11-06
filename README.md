@@ -6,6 +6,7 @@ Content for blog available at <https://thebelltower.github.io/>. Built using [Je
 
 * [Setup](#setup)
 * [Run](#run)
+* [Writing Posts](#writing-posts)
 * [Deploy](#deploy)
 * [License](#license)
 
@@ -41,6 +42,20 @@ Content for blog available at <https://thebelltower.github.io/>. Built using [Je
 `bundle exec jekyll serve`
 
 If you update `_config.yml`, you must restart the server, else you can rely on live reload.
+
+## Writing Posts
+
+* Create a draft
+    ```
+    bundle exec jekyll draft "My new draft"
+    ```
+
+* Convert to post when done
+    ```
+    bundle exec jekyll publish _drafts/my-new-draft.md
+    ```
+
+* [Deploy changes](#deploy)
 
 ## Deploy
 
